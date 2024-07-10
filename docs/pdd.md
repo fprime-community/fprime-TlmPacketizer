@@ -1,4 +1,4 @@
-# Package Design Document for TlmChan
+# Package Design Document for TlmPacketizer
 
 The following is the package design document (pdd) for `TlmPacketizer`, developed by Ali Mosallaei. 
 
