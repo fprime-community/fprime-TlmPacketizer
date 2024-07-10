@@ -1,0 +1,17 @@
+package_info:
+  id: mosallaei/fprime-TlmPacketizer
+  name: TlmPacketizer
+  description: F Prime package for sending telemetry as packets
+  author: Ali Mosallaei
+  repo: # fill this in with a link to the git repo
+  version: 0.0.1
+
+fprime_info:
+  built-with: 3.4.4
+  compatible-with:
+    - 3.4.4 
+
+config_objects:
+  - Telemetry/{{cookiecutter.td_name}}TopologyDefs.hpp
+  - Telemetry/{{cookiecutter.main_top}}Packets.xml
+  - Telemetry/Telemetry.fpp
