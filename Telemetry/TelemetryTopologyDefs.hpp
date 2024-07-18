@@ -1,6 +1,4 @@
-@! begin config description
-td_name is the name of the topology that is instantiated in your main deployment.
-@! end config description
+#include "MainDeployment/Top/MainDeploymentPacketsAc.hpp"
 
 #ifndef TELEMETRY_DEFS_HPP
 #define TELEMETRY_DEFS_HPP
@@ -15,17 +13,12 @@ struct TopologyState {
 
 namespace GlobalDefs {
     namespace PingEntries {
-        /* include any ping entries that are needed for the subtopology
-        e.g., rate groups need FAIL and WARN ping enums
-        For example:
-
-        namespace Telemetry_rateGroup {
+        namespace Telemetry_tlmSend {
             enum {
                 WARN = 3,
                 FATAL = 5
             };
         }
-        */
     }
 }
 

@@ -12,6 +12,4 @@ fprime_info:
     - 3.4.4 
 
 config_objects:
-  - Telemetry/{{cookiecutter.td_name}}TopologyDefs.hpp
-  - Telemetry/{{cookiecutter.main_top}}Packets.xml
   - Telemetry/Telemetry.fpp
