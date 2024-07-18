@@ -5,7 +5,7 @@ module Telemetry {
         priority TelemetryConfig.Priorities.tlmSend \
         {
             phase Fpp.ToCpp.Phases.configComponents """
-                Telemetry_tlmSend.setPacketList({{ cookiecutter.main_top }}PacketPkts, {{ cookiecutter.main_top }}PacketsIgnore, 1);
+                Telemetry_tlmSend.setPacketList({{ cookiecutter.main_top }}PacketsPkts, {{ cookiecutter.main_top }}PacketsIgnore, 1);
             """
         }
 
