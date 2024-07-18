@@ -20,8 +20,6 @@ This package provides some files that can be configured by running `fppm config 
 
 | Path to config object | Description                    |
 | --------------------- | ------------------------------ |
-| {{cookiecutter.main_top}}Packets.xml | Packet spec file for the deployment that uses this package  |
 | Telemetry.fpp   | The subtopology. Configuration is to add the name of the main deployment topology. |
-| {{cookiecutter.td_name}}TopologyDefs.hpp   | The topology definitions file that needs to be moved into the main deployment `Top/` folder. |
 
 Note that since `Telemetry.fpp` is a config object, it is not linked in the CMake source list. Once configured and the output files are obtained, remember to add `Telemetry.fpp` to a CMake source list.
